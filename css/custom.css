@@ -1,0 +1,96 @@
+/* custom styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    border-bottom: 5px solid #55c2f1;
+}
+section {
+    margin-bottom: 2em;
+}
+.title {
+    text-align: center;
+}
+.title h1, p, button {
+    margin: 1em 0;
+}
+.title h1 {
+    font-size: 2em;
+}
+.btn-yellow, .card-body .btn, .card {
+    box-shadow: 0px 3px 6px #00000029;
+}
+.btn-yellow {
+    color: #55c2f1;
+    background: #ffda47;
+    border: 0px;
+    font-size: 1.5em;
+}
+h2, h3{
+    color: #55c2f1;
+    font-weight: bold;
+}
+.title h2{
+    margin: 2em 0 1em 0;
+}
+.team .row {
+    margin: 0 auto;
+    font-size: 2em;
+}
+.blue {
+    width: 18rem;
+    height: 18rem;
+    background-color:#55c2f1;
+    border: 2px solid #ffda47;
+    margin: 2em;
+}
+.card {
+    margin-top: 1.25em;
+    border: none;
+}
+.card-body .btn {
+    background-color: #55c2f1;
+    color: white;
+    border: none;
+}
+/* .callout {
+    text-align: center;
+    color: white;
+    padding: 2em 1em;
+} */
+.yellow-bg {
+    background: #ffda47;
+}
+.blue-bg h2 {
+    color: white;
+    text-align: center;
+}
+/* .blue-bg h3 {
+    margin-top: 1.25em;
+} */
+.blue-bg {
+    background: #55c2f1;
+}
+.blue-bg, .yellow-bg {
+    padding-bottom: 2em;
+}
+.stack {
+    display: flex;
+    flex-flow: column;
+}
+.cta {
+    text-align: center;
+    margin-top: 3em;
+}
+/* footer a, p{
+    color: white;
+    text-align: center;
+} */
+@media (min-width: 992px) { 
+    .stack {
+    display: flex;
+    flex-flow: row;
+    }
+ }
